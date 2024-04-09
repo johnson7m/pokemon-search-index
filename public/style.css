@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow: hidden;
+  }
+  
+  :root {
+    --bg-color1: #41336A;
+    --bg-color2: #569587;
+    --btn-color: #fcdd30;
+    --font-color1: #e1c759;
+    --color1: #aaa26c;
+    --color2: #acb4a6;
+    --color3: #782545;
+    --color4: #ced0b7;
+  
+  }
+  
+  
+  body {
+    width: 100%;
+    height: 100%;
+    background-color: var(--color3);
+  }
+  
+  #welcome-header {
+    font-family: raleway;
+    text-align: center;
+    margin-top: 5rem;
+  }
+  
+  #search-container {
+    justify-content: space-evenly;
+    gap: .2rem;
+    width: 100%;
+    height: 30rem;
+    margin: auto;
+    background-color: gray;
+  }
+  
+  #image-container {
+    margin: auto;
+  }
+  
+  #parent-container {
+    justify-content: space-evenly;
+    width: 15rem;
+    height: 30rem;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 5rem;
+    background-color: gray;
+    border-radius: 6px;
+    box-shadow: white 3px 3px 3px;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sub-text {
+    font-family: 'Rale', sans-serif;
+  }
+  
+  .row-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .types-container {
+    padding-left: .1rem;
+    padding-right: .1rem;
+    padding-bottom: .3rem;
+  }
+  
+  #type2 {
+    padding-left: .5rem;
+  }
